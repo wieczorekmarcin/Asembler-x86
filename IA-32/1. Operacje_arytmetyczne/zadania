@@ -1,0 +1,5 @@
+1. EAX <- ECX – (EDX + EBX)
+2. ECX <- EBX * EDX
+3. ECX <- EBX / EDX
+4. EBX <- ECX2 
+5. EBX <- -ECX
