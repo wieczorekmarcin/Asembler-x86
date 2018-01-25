@@ -12,7 +12,7 @@
 				add %EBX, %EDX
 				mov %EDX, %ESI
 				sub %EBX, %ESI
-				mov %ESI, %EBX <-- value of n's fibonacci
+				mov %ESI, %EBX ;/<-- value of n's fibonacci
 				
 				add $1, %EAX
 				cmp %ECX, %EAX
