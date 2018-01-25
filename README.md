@@ -1,2 +1,2 @@
-# Asembler-x86
+# Assembler-x86
 Solutions for programming tasks in assembly language 
