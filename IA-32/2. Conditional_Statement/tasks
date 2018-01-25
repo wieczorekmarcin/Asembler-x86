@@ -1,0 +1,7 @@
+1. EBX←|ECX|
+2. EBX←|ECX–EDX|
+3. EAX←max(EBX,ECX)
+4. EAX←max(EBX,ECX,EDX)
+5. EAX←ECXEBX 
+6. EAX←(ECXEBX) 
+7. −1 0 +1 {when} EBX<0 whenEBX=0 whenEBX<0  

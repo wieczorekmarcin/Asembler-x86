@@ -4,8 +4,9 @@
         		
                 mov $20, %ECX
                 mov %ECX, %EAX
-            	mul %ECX ;/ ECX*EAX wynik zapisany w EAX
-            			 ;/ 40*40 
+
+            	mul %ECX 
+
             	mov %EAX, %EBX		 
                     
-            nop
+	nop
