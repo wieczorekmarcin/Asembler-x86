@@ -1,0 +1,4 @@
+1. EAX←EBX^ECX
+2. EAX←ECX!
+3. n's Fibonacci
+4. EAX←(ECX EBX) - combination

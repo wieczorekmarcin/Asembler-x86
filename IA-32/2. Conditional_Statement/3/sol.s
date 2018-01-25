@@ -1,20 +1,20 @@
 .global _start
 	.text
-        _start:
-                mov $30, %EBX
-		mov $50, %ECX
+		_start:
+		        mov $30, %EBX
+			mov $50, %ECX
 
-                cmp %EBX, %ECX
-		jge ECXisGreater
+		        cmp %EBX, %ECX
+			jge ECXisGreater
 
-		mov %EBX, %EAX
-		jmp EBXisGreater
+			mov %EBX, %EAX
+			jmp EBXisGreater
 
-	ECXisGreater:
-		mov %ECX, %EAX
+		ECXisGreater:
+			mov %ECX, %EAX
 
-	EBXisGreater:
+		EBXisGreater:
 
-	nop
+		nop
 
 

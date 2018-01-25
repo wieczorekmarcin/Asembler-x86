@@ -1,12 +1,12 @@
 .global _start
 	.text
-        _start:
-                mov $5, %EDX
-                mov $5, %EBX
-                mov %EBX, %EAX
+		_start:
+		        mov $5, %EDX
+		        mov $5, %EBX
+		        mov %EBX, %EAX
 
-                mul %EDX
+		        mul %EDX
 
-                mov %EAX, %ECX
-                    
-	nop
+		        mov %EAX, %ECX
+		            
+		nop

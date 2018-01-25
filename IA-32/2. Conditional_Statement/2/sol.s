@@ -1,16 +1,16 @@
 .global _start
 	.text
-        _start:
-                mov $30, %ECX
-		mov $20, %EDX
+		_start:
+		        mov $30, %ECX
+			mov $20, %EDX
 
-		sub %EDX, %ECX
-                cmp $0, %ECX
-		jge END
-		neg %ECX
+			sub %EDX, %ECX
+		        cmp $0, %ECX
+			jge END
+			neg %ECX
 
-	END:
-		mov %ECX, %EBX
+		END:
+			mov %ECX, %EBX
 
-	nop
+		nop
 
